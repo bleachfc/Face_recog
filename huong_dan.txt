@@ -1,0 +1,10 @@
+
+- Nên sử dụng Visual Studio Code
+- Cần kích hoạt Virtual environment(venv) bằng cách sử dụng Terminal và gõ lệnh: python -m venv myvenv, 
+ chạy xong sau đó kích hoạt bằng lệnh: myvenv\Scripts\activate
+- Cài đặt thư viện từ file requirements.txt bằng cách vào Terminal và gõ lệnh : pip install -r requirements.txt
+- Các file chính và tác dụng:
+    + File xu_ly_data.py : đây là file chia dữ liệu từ tập raw(Dữ liệu gốc) thành dạng test và train, và đưa chúng vào từng nhãn riêng.
+    + File build_model.ipynb: đây là file xây dựng và huấn luyện mô hình nhận diện khuôn mặt bằng CNN.
+    + File Webcam.py: đây là file chạy và sử dụng Webcam để quay khuôn mặt và nhận diện.
+- Thư mục Face-data chứa dữ liệu khuôn mặt và mô hình đã huấn luyện.
